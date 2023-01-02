@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<info>
+    <id>tutorial_3</id>
+    <name>Third tutorial</name>
+    <summary>Third Nextcloud app development tutorial</summary>
+    <description><![CDATA[This app demonstrate how to ...]]></description>
+    <version>1.0.0</version>
+    <licence>agpl</licence>
+    <author>Julien Veyssier</author>
+    <namespace>Tutorial3</namespace>
+    <documentation>
+        <developer>https://github.com/julien-nc/tutorial_3</developer>
+    </documentation>
+    <category>integration</category>
+    <website>https://github.com/julien-nc/tutorial_3</website>
+    <bugs>https://github.com/julien-nc/tutorial_3/issues</bugs>
+    <screenshot>https://github.com/julien-nc/tutorial_3/raw/master/img/screenshot1.png</screenshot>
+	<dependencies>
+        <nextcloud min-version="25" max-version="26"/>
+    </dependencies>
+    <!--navigations>
+		<navigation>
+			<id>tutorial_3</id>
+			<name>Tutorial 3</name>
+			<route>tutorial_3.page.mainPage</route>
+			<icon>app.svg</icon>
+			<order>8</order>
+		</navigation>
+	</navigations-->
+</info>
