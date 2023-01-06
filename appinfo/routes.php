@@ -12,6 +12,5 @@
 return [
 	'routes' => [
 		['name' => 'tutorial#getGifFile', 'url' => '/gif/{fileId}', 'verb' => 'GET'],
-		['name' => 'tutorial#saveConfig', 'url' => '/config', 'verb' => 'PUT'],
 	],
 ];
